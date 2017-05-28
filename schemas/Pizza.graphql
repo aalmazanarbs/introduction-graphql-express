@@ -4,3 +4,9 @@ type Pizza {
     origin: String
     ingredients: [Ingredient]
 }
+
+input PizzaInput {
+    name: String!
+    origin: String
+    ingredientIds: [Int]
+}

@@ -3,14 +3,13 @@
         {
             "id": 1,
             "name": "margarita",
-            "origin": "italia"
+            "origin": "Italia"
         },
         {
             "id": 2,
             "name": "hawaiana"
         }
     ],
-
     "ingredients": [
         {
             "id": 1,
@@ -30,15 +29,19 @@
         {
             "id": 4,
             "name": "piña",
-            "calories": "51 cal/100gr"   
+            "calories": "51 cal/100gr"
         },
         {
             "id": 5,
             "name": "aceitunas",
-            "calories": "349 cal/100gr"   
+            "calories": "349 cal/100gr"
+        },
+        {
+            "id": 6,
+            "name": "pimientos",
+            "calories": "22 cal/100gr"
         }
     ],
-
     "pizza_ingredients": [
         {
             "pizzaId": 1,
