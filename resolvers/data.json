@@ -1,0 +1,68 @@
+{
+    "pizzas": [
+        {
+            "id": 1,
+            "name": "margarita",
+            "origin": "italia"
+        },
+        {
+            "id": 2,
+            "name": "hawaiana"
+        }
+    ],
+
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "tomate",
+            "calories": "29 cal/100gr"
+        },
+        {
+            "id": 2,
+            "name": "queso",
+            "calories": "245 cal/100gr"
+        },
+        {
+            "id": 3,
+            "name": "jamón",
+            "calories": "380 cal/100gr"
+        },
+        {
+            "id": 4,
+            "name": "piña",
+            "calories": "51 cal/100gr"   
+        },
+        {
+            "id": 5,
+            "name": "aceitunas",
+            "calories": "349 cal/100gr"   
+        }
+    ],
+
+    "pizza_ingredients": [
+        {
+            "pizzaId": 1,
+            "ingredientId": 1
+        },
+        {
+            "pizzaId": 1,
+            "ingredientId": 2
+        },
+        {
+            "pizzaId": 1,
+            "ingredientId": 3
+        },
+        {
+            "pizzaId": 2,
+            "ingredientId": 1
+        },
+        {
+            "pizzaId": 2,
+            "ingredientId": 2
+        },
+        {
+            "pizzaId": 2,
+            "ingredientId": 4
+        }
+    ]
+}

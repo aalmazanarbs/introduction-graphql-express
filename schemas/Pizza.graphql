@@ -1,0 +1,6 @@
+type Pizza {
+    id: Int!
+    name: String!
+    origin: String
+    ingredients: [Ingredient]
+}
