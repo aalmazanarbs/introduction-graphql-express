@@ -1,8 +1,8 @@
 let data = require('./data.json');
 
-const ingredientResolver = {  
+const ingredientResolver = {
     Query: {
-        ingredients: () => {
+        ingredients() {
             return data.ingredients;
         }
     }

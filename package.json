@@ -1,7 +1,7 @@
 {
   "name": "graphql_express_server",
   "version": "1.0.0",
-  "description": "Introduction to GraphQL",
+  "description": "Introduction to GraphQL, un tutorial en https://www.adictosaltrabajo.com/tutoriales/introduccion-a-graphql/",
   "scripts": {
     "start": "nodemon ./server.js"
   },

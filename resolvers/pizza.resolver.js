@@ -20,7 +20,7 @@ const pizzaResolver = {
     },
 
     Pizza: {
-        //Have to resolve the field "ingredients" when a "Pizza" object is requested
+        // Have to resolve the field "ingredients" when a "Pizza" object is requested
         ingredients(pizza) {
             let pizzaIngredientsIds = data.pizza_ingredients
                 .filter((pizza_ingredient) => pizza_ingredient.pizzaId === pizza.id)

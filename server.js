@@ -24,4 +24,7 @@ server.use('/graphiql', graphiqlExpress({
     endpointURL: endPoint,
 }));
 
-server.listen(PORT, () => console.log('GraphQL API listen in http://localhost:' + PORT + endPoint));
+server.listen(PORT, () => {
+    console.log('GraphQL API listen in http://localhost:' + PORT + endPoint);
+    console.log('GraphiQL listen in http://localhost:' + PORT + '/graphiql');
+});
