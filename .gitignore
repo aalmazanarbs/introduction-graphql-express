@@ -1,6 +1,7 @@
 logs
 *.log
 npm-debug.log*
+package-lock.json
 pids
 *.pid
 *.seed
